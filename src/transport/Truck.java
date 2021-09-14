@@ -20,6 +20,6 @@ public class Truck extends Transport {
     public String toString() {
         return "Грузовой автомобиль: " +
                 super.toString() +
-                " Объем перевезенного груза = " + volume_of_transported_cargo;
+                ". Объем перевезенного груза = " + volume_of_transported_cargo;
     }
 }

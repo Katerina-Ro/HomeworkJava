@@ -20,6 +20,6 @@ public class Cranes extends Transport {
     public String toString() {
         return "Тяжелая техника: " +
                 super.toString() +
-               " Вес поднятых грузов = " + weight_of_lifted_loads;
+               ". Вес поднятых грузов = " + weight_of_lifted_loads;
     }
 }

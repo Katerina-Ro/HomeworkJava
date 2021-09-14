@@ -1,6 +1,6 @@
 package costs;
 
-//Класс содержит информацию о расходах на топливо
+//Класс содержит информацию о стоимости и расходах на топливо
 public class FuelCosts implements CalculationCosts {
     private static final double COSTS_OF_A_lITER_FUEL_PASSENGER_TRANSORT = 47.50;
     private static final double COSTS_OF_A_lITER_FUEL_CRANES = 48.90;

@@ -19,6 +19,6 @@ public class PassangerTransport extends Transport {
     @Override
     public String toString() {
         return "Пассажирский транспорт: " +
-                super.toString() + " Число перевезенных пассажиров = " + number_of_passengers_carried;
+                super.toString() + ". Число перевезенных пассажиров = " + number_of_passengers_carried;
     }
 }

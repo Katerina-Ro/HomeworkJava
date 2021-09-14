@@ -34,7 +34,7 @@ public abstract class Transport {
     @Override
     public String toString() {
         return " Код транспорта = " + code_car +
-                " Тип транспорта = " +  type_transport +
+                ", Тип транспорта = " +  type_transport +
                 ", государственный номер = " + number_auto +
                 ", пробег = " + probeg;
     }

@@ -3,7 +3,6 @@ package costs;
 import transport.*;
 
 public interface CalculationCosts{
-
     //расчет стоимости расходов на ГСМ на 1 км по каждому виду транспорта
     static double CarFuelConsumptionPer1Km() {
         return new FuelCosts().getFUEL_CONSUMPTION_PER_100_KM_CAR()/ 100;
