@@ -31,6 +31,7 @@ public class FrequencyDictionaryOfLetters {
                 arrayChars[ch - 'a']++;
             }
         }
+
         //перебираем массив букв
         for(int i = 0; i < arrayChars.length; i++){
             System.out.println((char) (i + 'a') + " = " + arrayChars[i]);
