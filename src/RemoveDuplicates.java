@@ -20,6 +20,6 @@ public class RemoveDuplicates {
     }
 
     public static <T> Collection<T> removeDuplicates(Collection<T> collection) {
-           return new HashSet<T>(collection);
+           return new HashSet<>(collection);
         }
     }
